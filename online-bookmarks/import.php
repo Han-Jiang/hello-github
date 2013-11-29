@@ -103,7 +103,7 @@ if (!isset ($_FILES['importfile']['tmp_name']) || $_FILES['importfile']['tmp_nam
 	
 		<?php
 		require_once (ABSOLUTE_PATH . "folders.php");
-		$tree = & new folder;
+		$tree = new folder();
 		$tree->make_tree (0);
 		$tree->print_tree ();
 		?>
@@ -134,7 +134,7 @@ else{
 	}
 
 	$parentfolder = set_post_parentfolder ();
-	$import = & new import;
+	$import = new import();
 
 	if ($_POST['browser'] == "opera") {
 		$import->import_opera ();

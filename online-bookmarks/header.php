@@ -13,9 +13,9 @@ else {
 	require_once (ABSOLUTE_PATH . "config/config.php");
 }
 require_once (ABSOLUTE_PATH . "lib/mysql.php");
-$mysql = & new mysql;
+$mysql = new mysql();
 require_once (ABSOLUTE_PATH . "lib/auth.php");
-$auth = & new Auth;
+$auth = new Auth();
 require_once (ABSOLUTE_PATH . "lib/lib.php");
 require_once (ABSOLUTE_PATH . "lib/login.php");
 

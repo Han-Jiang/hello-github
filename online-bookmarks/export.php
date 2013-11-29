@@ -96,7 +96,7 @@ if (!isset ($_POST['browser']) || $_POST['browser'] == "" ||
 
 	<?php
 	require_once (ABSOLUTE_PATH . "folders.php");
-	$tree = & new folder;
+	$tree = new folder();
 	$tree->make_tree (0);
 	$tree->print_tree ();
 	?>
@@ -135,9 +135,9 @@ else{
 	require_once (ABSOLUTE_PATH . "lib/webstart.php");
 	require_once (ABSOLUTE_PATH . "config/config.php");
 	require_once (ABSOLUTE_PATH . "lib/mysql.php");
-	$mysql = & new mysql;
+	$mysql = new mysql();
 	require_once (ABSOLUTE_PATH . "lib/auth.php");
-	$auth = & new Auth;
+	$auth = new Auth();
 	require_once (ABSOLUTE_PATH . "lib/lib.php");
 	logged_in_only ();
 	require_once (ABSOLUTE_PATH . "lib/login.php");
@@ -168,14 +168,14 @@ else{
 		echo "<TITLE>Bookmarks</TITLE>\n";
 		echo "<H1>Bookmarks</H1>\n";
 		echo "<DL><p>\n";
-		$export = & new export;
+		$export = new export();
 		$export->make_tree ($folderid);
 		echo "</DL><p>\n";
 	}
 	else if ($browser == "opera") {
 		echo "Opera Hotlist version 2.0\n";
 		echo "Options: encoding = utf8, version=3\n\n";
-		$export = & new export;
+		$export = new export();
 		$export->make_tree ($folderid);
 	}
 }
@@ -185,7 +185,7 @@ class export {
 		global $settings, $browser;
 		# collect the folder data
 		require_once (ABSOLUTE_PATH . "folders.php");
-		$this->tree = & new folder;
+		$this->tree = new folder();
 		$this->tree->folders[0] = array ('id' => 0, 'childof' => null, 'name' => $settings['root_folder_name']);
 
 		global $username, $mysql;

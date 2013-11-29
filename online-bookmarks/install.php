@@ -45,7 +45,7 @@ function create_table_bookmark () {
 			url char(200) NOT NULL default '',
 			description mediumtext default NULL,
 			private enum('0','1') default NULL,
-			date timestamp(14) NOT NULL,
+			date timestamp(6) NOT NULL,
 			childof int(11) NOT NULL default '0',
 			id int(11) NOT NULL auto_increment,
 			deleted enum('0','1') NOT NULL default '0',
@@ -53,7 +53,7 @@ function create_table_bookmark () {
 			public enum('0','1') NOT NULL default '0',
 			PRIMARY KEY (id),
 			FULLTEXT KEY title (title,url,description)
-		) TYPE=MyISAM";
+		)";
 
 	if (mysql_query ($query)) {
 		return true;
@@ -72,7 +72,7 @@ function create_table_folder () {
 			deleted enum('0','1') NOT NULL default '0',
 			public enum('0','1') NOT NULL default '0',
 			UNIQUE KEY id (id)
-		) TYPE=MyISAM;";
+		);";
 
 	if (mysql_query ($query)) {
 		return true;
@@ -107,7 +107,7 @@ function create_table_user () {
 			simple_tree_mode enum('0','1') NOT NULL default '0',
 			show_public enum('0','1') NOT NULL default '1',
 			UNIQUE KEY id (username)
-		) TYPE=MyISAM;";
+		);";
 
 	if (mysql_query ($query)) {
 		return true;

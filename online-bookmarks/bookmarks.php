@@ -94,7 +94,7 @@ function list_bookmarks ($bookmarks, $show_checkbox, $show_folder, $show_icon, $
 
 	if ($show_folder) {
 		require_once (ABSOLUTE_PATH . "folders.php");
-		$tree = & new folder;
+		$tree = new folder();
 	}
 
 	echo '<form name="bookmarks" action="" class="nav">' . "\n";
