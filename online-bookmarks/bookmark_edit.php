@@ -110,7 +110,7 @@ else if ($post_title == "" || $post_url == "" || $post_icon) {
 					@unlink ($row->favicon);
 				}
 				require_once (ABSOLUTE_PATH . "favicon.php");
-				$favicon = new favicon ($post_url)();
+				$favicon = new favicon ($post_url);
 				if (isset ($favicon->favicon)) {
 					$icon = '<img src="' . $favicon->favicon . '" width="16" height="16" alt="">';
 					$query = sprintf ("UPDATE bookmark SET favicon='%s' WHERE user='%s' AND id='%d'",

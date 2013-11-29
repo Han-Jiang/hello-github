@@ -15,10 +15,10 @@ if (!isset ($_POST['browser']) || $_POST['browser'] == "" ||
 	$folderid = set_get_folderid ();
 
 	# get the browser type for default setting below if possible
-	if( eregi ("opera", $_SERVER['HTTP_USER_AGENT'])) {
+	if( preg_match ("/opera/i", $_SERVER['HTTP_USER_AGENT'])) {
 		$default_browser = "opera";
 	}
-	else if (eregi ("msie", $_SERVER['HTTP_USER_AGENT'])) {
+	else if (preg_match ("/msie/i", $_SERVER['HTTP_USER_AGENT'])) {
 		$default_browser = "IE";
 	}
 	else{

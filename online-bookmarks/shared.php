@@ -64,7 +64,7 @@ if (isset ($_GET['user']) && check_username ($user)) {
 
 	<?php
 	require_once (ABSOLUTE_PATH . "folders.php");
-	$tree = new folder ($user)();
+	$tree = new folder ($user);
 	$tree->make_tree (0);
 	$tree->print_tree ();
 	?>

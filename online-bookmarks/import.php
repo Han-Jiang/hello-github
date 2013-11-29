@@ -37,7 +37,7 @@ logged_in_only ();
 
 if (!isset ($_FILES['importfile']['tmp_name']) || $_FILES['importfile']['tmp_name'] == null){
 	# get the browser type for default setting below if possible
-	if( eregi ("opera", $_SERVER['HTTP_USER_AGENT'])){
+	if( preg_match ("/opera/i", $_SERVER['HTTP_USER_AGENT'])){
 		$default_browser = "opera";
 	}
 	else{

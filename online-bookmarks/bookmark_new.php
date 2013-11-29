@@ -91,7 +91,7 @@ else {
 	# favicon is not that important.
 	if ($settings['show_bookmark_icon']) {
 		require_once (ABSOLUTE_PATH . "favicon.php");
-		$favicon = new favicon ($post_url)();
+		$favicon = new favicon ($post_url);
 		if (isset ($favicon->favicon)) {
 			$query = sprintf ("UPDATE bookmark set favicon='%s' WHERE user='%s' AND id='%d'", 
 				$mysql->escape ($favicon->favicon),
