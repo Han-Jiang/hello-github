@@ -1,0 +1,18 @@
+=STR= #NAME# 		= "Peon"
+=STR= #TYPE# 		= "Worker"
+=STR= #FACTION# 	= "Orcs"
+=RNG= #FRAMES# 		= {15-08}
+=ANM= #IDLE# 		= {03-03} (0.2) !5!			[16*16,0;0]
+=ANM= #MOVE# 		= {01-05} (0.2) !5! 	<true> |true| 	[16*16,0;0]
+=ANM= #EXTRACT# 	= {76-80} (0.2) !5! 	<true> |true| 	[16*16,0;0]
+=ANM= #CARRY_GOLD# 	= {26-30} (0.2) !5! 	<true> |true| 	[16*16,0;0]
+=ANM= #CARRY_WOOD# 	= {51-55} (0.2) !5! 	<true> |true| 	[16*16,0;0]
+=ANM= #DIE# 		= {101-103} (0.2) !3!
+=INT= #ICON# 		= (54)
+=INT= #WIDTH# 		= (16)
+=INT= #HEIGHT# 		= (16)
+=INT= #OFFSET_X# 	= (08)
+=INT= #OFFSET_Y# 	= (08)
+=INT= #DEFAULT_FRAME# 	= (23)
+=INT= #MAX_LIFE# 	= (40)
+=INT= #FOV# 		= (03)

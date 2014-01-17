@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Display width="640" height="400" depth="32" rate="60" windowed="true" />
+  <Configuration rendering="SCREEN_SCALED" filter="NONE" lang="Francais" />
+</Options>
+

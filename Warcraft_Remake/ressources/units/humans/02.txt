@@ -1,0 +1,19 @@
+=STR= #NAME# 		= "Footman"
+=STR= #TYPE# 		= "Warrior"
+=STR= #FACTION# 	= "Humans"
+=RNG= #FRAMES# 		= {10-06}
+=ANM= #IDLE# 		= {03-03} (0.2) !5!			[16*16,0;0]
+=ANM= #MOVE# 		= {01-05} (0.2) !5! <true> |true| 	[16*16,0;0]
+=ANM= #ATTACK# 		= {26-30} (0.2) !5! 			[16*16,0;0]
+=ANM= #DIE# 		= {51-53} (0.15) !3!
+=INT= #ICON# 		= (10)
+=INT= #WIDTH# 		= (16)
+=INT= #HEIGHT# 		= (16)
+=INT= #OFFSET_X# 	= (16)
+=INT= #OFFSET_Y# 	= (16)
+=INT= #DEFAULT_FRAME# 	= (03)
+=INT= #MAX_LIFE# 	= (60)
+=INT= #DMG_MIN#		= (10)
+=INT= #DMG_MAX#		= (15)
+=INT= #ATT_TIME#	= (1000)
+=INT= #FOV# 		= (05)

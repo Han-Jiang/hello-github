@@ -1,0 +1,13 @@
+=STR= #NAME# 		= "Gold Mine"
+=STR= #CATEGORY# 	= "building"
+=STR= #TYPE# 		= "None"
+=STR= #FACTION# 	= "Neutral"
+=RNG= #FRAMES# 		= {01-01}
+=ANM= #IDLE# 		= {02-02} (0.2) !1! [48*48,0;0]
+=INT= #MAX_LIFE# 	= (10000)
+=INT= #WIDTH# 		= (48)
+=INT= #HEIGHT# 		= (48)
+=INT= #OFFSET_X# 	= (0)
+=INT= #OFFSET_Y# 	= (0)
+=INT= #DEFAULT_FRAME# 	= (1)
+=INT= #ICON# 		= (90)

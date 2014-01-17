@@ -1,0 +1,14 @@
+=STR= #NAME# 		= "Town Hall"
+=STR= #CATEGORY# 	= "building"
+=STR= #TYPE# 		= "TownHall"
+=STR= #FACTION# 	= "Humans"
+=RNG= #FRAMES# 		= {02-01}
+=ANM= #IDLE# 		= {02-02} (0.2) !1! [48*48,0;0]
+=INT= #MAX_LIFE# 	= (1000)
+=INT= #WIDTH# 		= (48)
+=INT= #HEIGHT# 		= (48)
+=INT= #OFFSET_X# 	= (00)
+=INT= #OFFSET_Y# 	= (00)
+=INT= #DEFAULT_FRAME# 	= (02)
+=INT= #ICON# 		= (00)
+=INT= #FOV# 		= (05)

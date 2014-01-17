@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Costs>
+	<Cost name="HUMANS_TOWNHALL" gold="600" wood="300" time="20000" tw="3" th="3"></Cost>
+	<Cost name="HUMANS_FARM" gold="400" wood="100" time="9000" tw="2" th="2"></Cost>
+	<Cost name="HUMANS_BARRACKS" gold="600" wood="150" time="15000" tw="3" th="3"></Cost>
+	<Cost name="HUMANS_LUMBERMILL" gold="600" wood="200" time="14000" tw="3" th="3"></Cost>
+
+	<Cost name="ORCS_TOWNHALL" gold="600" wood="300" time="20000" tw="3" th="3"></Cost>
+	<Cost name="ORCS_FARM" gold="400" wood="100" time="9000" tw="2" th="2"></Cost>
+	<Cost name="ORCS_BARRACKS" gold="600" wood="150" time="15000" tw="3" th="3"></Cost>
+	<Cost name="ORCS_LUMBERMILL" gold="600" wood="200" time="14000" tw="3" th="3"></Cost>
+
+	<Cost name="HUMANS_WORKER" gold="350" wood="0" time="14000" tw="1" th="1"></Cost>
+	<Cost name="HUMANS_WARRIOR" gold="450" wood="0" time="20000" tw="1" th="1"></Cost>
+	<Cost name="HUMANS_THROWER" gold="450" wood="50" time="22000" tw="1" th="1"></Cost>
+
+	<Cost name="ORCS_WORKER" gold="350" wood="0" time="14000" tw="1" th="1"></Cost>
+	<Cost name="ORCS_WARRIOR" gold="450" wood="0" time="20000" tw="1" th="1"></Cost>
+	<Cost name="ORCS_THROWER" gold="450" wood="50" time="22000" tw="1" th="1"></Cost>
+</Costs>

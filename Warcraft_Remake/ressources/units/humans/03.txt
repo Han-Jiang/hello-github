@@ -1,0 +1,19 @@
+=STR= #NAME# 		= "Archer"
+=STR= #TYPE# 		= "Thrower"
+=STR= #FACTION# 	= "Humans"
+=RNG= #FRAMES# 		= {09-04}
+=ANM= #IDLE# 		= {01-01} (0.2) !3! 			[16*16,0;0]
+=ANM= #MOVE# 		= {01-03} (0.2) !3! <true> |true| 	[16*16,0;0]
+=ANM= #ATTACK# 		= {16-18} (0.2) !3! 			[16*16,0;0]
+=ANM= #DIE# 		= {31-33} (0.2) !3!
+=INT= #ICON# 		= (11)
+=INT= #WIDTH# 		= (16)
+=INT= #HEIGHT# 		= (16)
+=INT= #OFFSET_X# 	= (08)
+=INT= #OFFSET_Y# 	= (08)
+=INT= #DEFAULT_FRAME# 	= (01)
+=INT= #MAX_LIFE# 	= (50)
+=INT= #DMG_MIN#		= (08)
+=INT= #DMG_MAX#		= (12)
+=INT= #ATT_TIME#	= (1500)
+=INT= #FOV# 		= (06)
